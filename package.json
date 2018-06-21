@@ -1,0 +1,19 @@
+{
+  "name": "codecept",
+  "version": "1.0.0",
+  "description": "",
+  "main": "codecept_test.js",
+  "dependencies": {
+    "codeceptjs": "^1.2.1"
+  },
+  "devDependencies": {
+    "nightmare": "^3.0.1",
+    "unirest": "^0.5.1"
+  },
+  "scripts": {
+    "test": "mocha",
+    "start": "./node_modules/codeceptjs/bin/codecept.js run"
+  },
+  "author": "",
+  "license": "ISC"
+}
